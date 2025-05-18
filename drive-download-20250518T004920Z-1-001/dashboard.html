@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Respondr Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    
+  <header>
+    <div class="logo-container">
+      <img src="assets/logohdr.png" alt="Respondr Logo" class="logo" />
+      <h1>Respondr</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="dashboard.html" class="nav-link">Home</a></li>
+        <li><a href="emergencies.html" class="nav-link" id="emergency-nav">Emergencies</a></li>
+        <li><a href="report.html" class="nav-link">Report</a></li>
+        <li><a href="profile.html" class="nav-link">Profile</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="section active">
+      <div class="content" id="content">
+        <h1 class="slide-in-left">Welcome to <span>Respondr</span></h1>
+        <p class="slide-in-right">
+          A modern emergency response system to help communities in need.
+        </p>
+        <div class="description slide-in-bottom">
+          <p>
+            Respondr connects volunteers and emergency responders to provide immediate assistance during critical situations. Our platform offers real-time reporting, fast response coordination, and navigation to emergencies.
+          </p>
+        </div>
+        <button class="report-btn slide-in-bottom">Report Now</button>
+      </div>
+
+      <!-- Ambulance Animation -->
+      <img src="assets/ambulance.png" alt="Ambulance" class="ambulance-img" id="ambulance-img"/>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
